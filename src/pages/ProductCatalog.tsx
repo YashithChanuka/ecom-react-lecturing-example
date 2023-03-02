@@ -6,10 +6,10 @@ type ProductCatalogProps = {};
 
 type ProductCatalogState = {
   itemDetails: {
-    itemId?: string;
-    itemName?: string;
+    itemId: string;
+    itemName: string;
     itemImageLink: string;
-    pricePerItem?: number;
+    pricePerItem: number;
     inStock: boolean;
   }[];
 };
@@ -28,47 +28,46 @@ export default class ProductCatalog extends Component<
           itemName: "Nespray",
           itemImageLink:
             "https://shopit.lk/wp-content/uploads/2020/05/Nespray-Full-Cream-Milk-Powder-FortiGrow-%E2%80%93-400g.jpg",
-          pricePerItem: 435,
+          pricePerItem: 100,
           inStock: true,
         },
         {
           itemId: "2",
-          itemName: "Nespray",
+          itemName: "Anchor",
           itemImageLink:
-            "https://shopit.lk/wp-content/uploads/2020/05/Nespray-Full-Cream-Milk-Powder-FortiGrow-%E2%80%93-400g.jpg",
-          pricePerItem: 435,
+            "https://shopit.lk/wp-content/uploads/2020/03/Anchor-1-kg.jpg",
+          pricePerItem: 200,
           inStock: false,
         },
         {
           itemId: "3",
-          itemName: "Nespray",
+          itemName: "Raththi",
           itemImageLink:
-            "https://shopit.lk/wp-content/uploads/2020/05/Nespray-Full-Cream-Milk-Powder-FortiGrow-%E2%80%93-400g.jpg",
-          pricePerItem: 435,
+            "https://r-mart.shophere.lk/wp-content/uploads/2021/05/image-1.jpg",
+          pricePerItem: 300,
           inStock: true,
         },
         {
           itemId: "4",
-          itemName: "Nespray",
+          itemName: "Viva",
           itemImageLink:
-            "https://shopit.lk/wp-content/uploads/2020/05/Nespray-Full-Cream-Milk-Powder-FortiGrow-%E2%80%93-400g.jpg",
-          pricePerItem: 435,
+            "https://www.kapruka.com/cdn-cgi/image/width=700,quality=93,f=auto/shops/specialGifts/productImages/1591883992302_VivaMaltedFoodDrinkCarton400g_M.jpg",
+          pricePerItem: 400,
           inStock: false,
         },
         {
           itemId: "5",
-          itemName: "Nespray",
-          itemImageLink:
-            "https://shopit.lk/wp-content/uploads/2020/05/Nespray-Full-Cream-Milk-Powder-FortiGrow-%E2%80%93-400g.jpg",
-          pricePerItem: 435,
+          itemName: "Nestle",
+          itemImageLink: "https://m.media-amazon.com/images/I/71x9onReBAL.jpg",
+          pricePerItem: 500,
           inStock: true,
         },
         {
           itemId: "6",
-          itemName: "Nespray",
+          itemName: "Horlicks",
           itemImageLink:
-            "https://shopit.lk/wp-content/uploads/2020/05/Nespray-Full-Cream-Milk-Powder-FortiGrow-%E2%80%93-400g.jpg",
-          pricePerItem: 435,
+            "https://www.chemist365.lk/wp-content/uploads/2021/03/Horlicks-400g.jpg",
+          pricePerItem: 600,
           inStock: false,
         },
       ],
