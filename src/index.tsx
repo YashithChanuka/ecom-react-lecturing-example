@@ -9,11 +9,15 @@ const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
 root.render(
-  <React.StrictMode>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
-  </React.StrictMode>
+  // Here, comment the "React.StrictMode" for avoiding two-times rendering
+  // this is not affecting in production
+  // just causing in development
+
+  // <React.StrictMode>
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>
+  // </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
